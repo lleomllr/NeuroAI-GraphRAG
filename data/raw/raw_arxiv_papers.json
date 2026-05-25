@@ -1,0 +1,882 @@
+[
+  {
+    "arxiv_id": "1906.12350v2",
+    "title": "Split Q Learning: Reinforcement Learning with Two-Stream Rewards",
+    "authors": [
+      "Baihan Lin",
+      "Djallel Bouneffouf",
+      "Guillermo Cecchi"
+    ],
+    "abstract": "Drawing an inspiration from behavioral studies of human decision making, we propose here a general parametric framework for a reinforcement learning problem, which extends the standard Q-learning approach to incorporate a two-stream framework of reward processing with biases biologically associated with several neurological and psychiatric conditions, including Parkinson's and Alzheimer's diseases, attention-deficit/hyperactivity disorder (ADHD), addiction, and chronic pain. For AI community, the development of agents that react differently to different types of rewards can enable us to understand a wide spectrum of multi-agent interactions in complex real-world socioeconomic systems. Moreover, from the behavioral modeling perspective, our parametric framework can be viewed as a first step towards a unifying computational model capturing reward processing abnormalities across multiple mental conditions and user preferences in long-term recommendation systems.",
+    "published_date": "2019-06-21T01:59:52Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.MA",
+      "q-bio.NC",
+      "stat.ML"
+    ]
+  },
+  {
+    "arxiv_id": "2311.13870v4",
+    "title": "Multi-intention Inverse Q-learning for Interpretable Behavior Representation",
+    "authors": [
+      "Hao Zhu",
+      "Brice De La Crompe",
+      "Gabriel Kalweit",
+      "Artur Schneider",
+      "Maria Kalweit",
+      "Ilka Diester",
+      "Joschka Boedecker"
+    ],
+    "abstract": "In advancing the understanding of natural decision-making processes, inverse reinforcement learning (IRL) methods have proven instrumental in reconstructing animal's intentions underlying complex behaviors. Given the recent development of a continuous-time multi-intention IRL framework, there has been persistent inquiry into inferring discrete time-varying rewards with IRL. To address this challenge, we introduce the class of hierarchical inverse Q-learning (HIQL) algorithms. Through an unsupervised learning process, HIQL divides expert trajectories into multiple intention segments, and solves the IRL problem independently for each. Applying HIQL to simulated experiments and several real animal behavior datasets, our approach outperforms current benchmarks in behavior prediction and produces interpretable reward functions. Our results suggest that the intention transition dynamics underlying complex decision-making behavior is better modeled by a step function instead of a smoothly varying function. This advancement holds promise for neuroscience and cognitive science, contributing to a deeper understanding of decision-making and uncovering underlying brain mechanisms.",
+    "published_date": "2023-11-23T09:27:08Z",
+    "categories": [
+      "cs.LG",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "1812.06594v1",
+    "title": "Computational EEG in Personalized Medicine: A study in Parkinson's Disease",
+    "authors": [
+      "Sebastian Mathias Keller",
+      "Maxim Samarin",
+      "Antonia Meyer",
+      "Vitalii Kosak",
+      "Ute Gschwandtner",
+      "Peter Fuhr",
+      "Volker Roth"
+    ],
+    "abstract": "Recordings of electrical brain activity carry information about a person's cognitive health. For recording EEG signals, a very common setting is for a subject to be at rest with its eyes closed. Analysis of these recordings often involve a dimensionality reduction step in which electrodes are grouped into 10 or more regions (depending on the number of electrodes available). Then an average over each group is taken which serves as a feature in subsequent evaluation. Currently, the most prominent features used in clinical practice are based on spectral power densities. In our work we consider a simplified grouping of electrodes into two regions only. In addition to spectral features we introduce a secondary, non-redundant view on brain activity through the lens of Tsallis Entropy $S_{q=2}$. We further take EEG measurements not only in an eyes closed (ec) but also in an eyes open (eo) state. For our cohort of healthy controls (HC) and individuals suffering from Parkinson's disease (PD), the question we are asking is the following: How well can one discriminate between HC and PD within this simplified, binary grouping? This question is motivated by the commercial availability of inexpensive and easy to use portable EEG devices. If enough information is retained in this binary grouping, then such simple devices could potentially be used as personal monitoring tools, as standard screening tools by general practitioners or as digital biomarkers for easy long term monitoring during neurological studies.",
+    "published_date": "2018-12-02T15:15:44Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "eess.SP",
+      "q-bio.QM",
+      "stat.ML"
+    ]
+  },
+  {
+    "arxiv_id": "2006.07352v1",
+    "title": "Deep Reinforcement Learning for Neural Control",
+    "authors": [
+      "Jimin Kim",
+      "Eli Shlizerman"
+    ],
+    "abstract": "We present a novel methodology for control of neural circuits based on deep reinforcement learning. Our approach achieves aimed behavior by generating external continuous stimulation of existing neural circuits (neuromodulation control) or modulations of neural circuits architecture (connectome control). Both forms of control are challenging due to nonlinear and recurrent complexity of neural activity. To infer candidate control policies, our approach maps neural circuits and their connectome into a grid-world like setting and infers the actions needed to achieve aimed behavior. The actions are inferred by adaptation of deep Q-learning methods known for their robust performance in navigating grid-worlds. We apply our approach to the model of \\textit{C. elegans} which simulates the full somatic nervous system with muscles and body. Our framework successfully infers neuropeptidic currents and synaptic architectures for control of chemotaxis. Our findings are consistent with in vivo measurements and provide additional insights into neural control of chemotaxis. We further demonstrate the generality and scalability of our methods by inferring chemotactic neural circuits from scratch.",
+    "published_date": "2020-06-12T17:41:12Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.AI",
+      "cs.LG",
+      "eess.SY"
+    ]
+  },
+  {
+    "arxiv_id": "1906.09528v2",
+    "title": "Neural networks with motivation",
+    "authors": [
+      "Sergey A. Shuvaev",
+      "Ngoc B. Tran",
+      "Marcus Stephenson-Jones",
+      "Bo Li",
+      "Alexei A. Koulakov"
+    ],
+    "abstract": "How can animals behave effectively in conditions involving different motivational contexts? Here, we propose how reinforcement learning neural networks can learn optimal behavior for dynamically changing motivational salience vectors. First, we show that Q-learning neural networks with motivation can navigate in environment with dynamic rewards. Second, we show that such networks can learn complex behaviors simultaneously directed towards several goals distributed in an environment. Finally, we show that in Pavlovian conditioning task, the responses of the neurons in our model resemble the firing patterns of neurons in the ventral pallidum (VP), a basal ganglia structure involved in motivated behaviors. We show that, similarly to real neurons, recurrent networks with motivation are composed of two oppositely-tuned classes of neurons, responding to positive and negative rewards. Our model generates predictions for the VP connectivity. We conclude that networks with motivation can rapidly adapt their behavior to varying conditions without changes in synaptic strength when expected reward is modulated by motivation. Such networks may also provide a mechanism for how hierarchical reinforcement learning is implemented in the brain.",
+    "published_date": "2019-06-23T01:44:32Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG"
+    ]
+  },
+  {
+    "arxiv_id": "2204.11843v2",
+    "title": "A Computational Theory of Learning Flexible Reward-Seeking Behavior with Place Cells",
+    "authors": [
+      "Yuanxiang Gao"
+    ],
+    "abstract": "An important open question in computational neuroscience is how various spatially tuned neurons, such as place cells, are used to support the learning of reward-seeking behavior of an animal. Existing computational models either lack biological plausibility or fall short of behavioral flexibility when environments change. In this paper, we propose a computational theory that achieves behavioral flexibility with better biological plausibility. We first train a mixture of Gaussian distributions to model the ensemble of firing fields of place cells. Then we propose a Hebbian-like rule to learn the synaptic strength matrix among place cells. This matrix is interpreted as the transition rate matrix of a continuous time Markov chain to generate the sequential replay of place cells. During replay, the synaptic strengths from place cells to medium spiny neurons (MSN) are learned by a temporal-difference like rule to store place-reward associations. After replay, the activation of MSN will ramp up when an animal approaches the rewarding place, so the animal can move along the direction where the MSN activation is increasing to find the rewarding place. We implement our theory into a high-fidelity virtual rat in the MuJoCo physics simulator. In a complex maze, the rat shows significantly better learning efficiency and behavioral flexibility than a rat that implements a neuroscience-inspired reinforcement learning algorithm, deep Q-network.",
+    "published_date": "2022-04-22T16:06:44Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.AI",
+      "cs.LG",
+      "cs.NE"
+    ]
+  },
+  {
+    "arxiv_id": "2207.00636v1",
+    "title": "Action-modulated midbrain dopamine activity arises from distributed control policies",
+    "authors": [
+      "Jack Lindsey",
+      "Ashok Litwin-Kumar"
+    ],
+    "abstract": "Animal behavior is driven by multiple brain regions working in parallel with distinct control policies. We present a biologically plausible model of off-policy reinforcement learning in the basal ganglia, which enables learning in such an architecture. The model accounts for action-related modulation of dopamine activity that is not captured by previous models that implement on-policy algorithms. In particular, the model predicts that dopamine activity signals a combination of reward prediction error (as in classic models) and \"action surprise,\" a measure of how unexpected an action is relative to the basal ganglia's current policy. In the presence of the action surprise term, the model implements an approximate form of Q-learning. On benchmark navigation and reaching tasks, we show empirically that this model is capable of learning from data driven completely or in part by other policies (e.g. from other brain regions). By contrast, models without the action surprise term suffer in the presence of additional policies, and are incapable of learning at all from behavior that is completely externally driven. The model provides a computational account for numerous experimental findings about dopamine activity that cannot be explained by classic models of reinforcement learning in the basal ganglia. These include differing levels of action surprise signals in dorsal and ventral striatum, decreasing amounts movement-modulated dopamine activity with practice, and representations of action initiation and kinematics in dopamine activity. It also provides further predictions that can be tested with recordings of striatal dopamine activity.",
+    "published_date": "2022-07-01T19:24:29Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "cs.NE"
+    ]
+  },
+  {
+    "arxiv_id": "1905.02636v1",
+    "title": "A Complementary Learning Systems Approach to Temporal Difference Learning",
+    "authors": [
+      "Sam Blakeman",
+      "Denis Mareschal"
+    ],
+    "abstract": "Complementary Learning Systems (CLS) theory suggests that the brain uses a 'neocortical' and a 'hippocampal' learning system to achieve complex behavior. These two systems are complementary in that the 'neocortical' system relies on slow learning of distributed representations while the 'hippocampal' system relies on fast learning of pattern-separated representations. Both of these systems project to the striatum, which is a key neural structure in the brain's implementation of Reinforcement Learning (RL). Current deep RL approaches share similarities with a 'neocortical' system because they slowly learn distributed representations through backpropagation in Deep Neural Networks (DNNs). An ongoing criticism of such approaches is that they are data inefficient and lack flexibility. CLS theory suggests that the addition of a 'hippocampal' system could address these criticisms. In the present study we propose a novel algorithm known as Complementary Temporal Difference Learning (CTDL), which combines a DNN with a Self-Organising Map (SOM) to obtain the benefits of both a 'neocortical' and a 'hippocampal' system. Key features of CTDL include the use of Temporal Difference (TD) error to update a SOM and the combination of a SOM and DNN to calculate action values. We evaluate CTDL on grid worlds and the Cart-Pole environment, and show several benefits over the classic Deep Q-Network (DQN) approach. These results demonstrate (1) the utility of complementary learning systems for the evaluation of actions, (2) that the TD error signal is a useful form of communication between the two systems and (3) the biological plausibility of the proposed approach.",
+    "published_date": "2019-05-07T15:17:20Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "cs.NE"
+    ]
+  },
+  {
+    "arxiv_id": "1511.08779v1",
+    "title": "Multiagent Cooperation and Competition with Deep Reinforcement Learning",
+    "authors": [
+      "Ardi Tampuu",
+      "Tambet Matiisen",
+      "Dorian Kodelja",
+      "Ilya Kuzovkin",
+      "Kristjan Korjus",
+      "Juhan Aru",
+      "Jaan Aru",
+      "Raul Vicente"
+    ],
+    "abstract": "Multiagent systems appear in most social, economical, and political situations. In the present work we extend the Deep Q-Learning Network architecture proposed by Google DeepMind to multiagent environments and investigate how two agents controlled by independent Deep Q-Networks interact in the classic videogame Pong. By manipulating the classical rewarding scheme of Pong we demonstrate how competitive and collaborative behaviors emerge. Competitive agents learn to play and score efficiently. Agents trained under collaborative rewarding schemes find an optimal strategy to keep the ball in the game as long as possible. We also describe the progression from competitive to collaborative behavior. The present work demonstrates that Deep Q-Networks can become a practical tool for studying the decentralized learning of multiagent systems living in highly complex environments.",
+    "published_date": "2015-11-27T20:01:45Z",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "2006.03355v2",
+    "title": "Prediction and Generalisation over Directed Actions by Grid Cells",
+    "authors": [
+      "Changmin Yu",
+      "Timothy E. J. Behrens",
+      "Neil Burgess"
+    ],
+    "abstract": "Knowing how the effects of directed actions generalise to new situations (e.g. moving North, South, East and West, or turning left, right, etc.) is key to rapid generalisation across new situations. Markovian tasks can be characterised by a state space and a transition matrix and recent work has proposed that neural grid codes provide an efficient representation of the state space, as eigenvectors of a transition matrix reflecting diffusion across states, that allows efficient prediction of future state distributions. Here we extend the eigenbasis prediction model, utilising tools from Fourier analysis, to prediction over arbitrary translation-invariant directed transition structures (i.e. displacement and diffusion), showing that a single set of eigenvectors can support predictions over arbitrary directed actions via action-specific eigenvalues. We show how to define a \"sense of direction\" to combine actions to reach a target state (ignoring task-specific deviations from translation-invariance), and demonstrate that adding the Fourier representations to a deep Q network aids policy learning in continuous control tasks. We show the equivalence between the generalised prediction framework and traditional models of grid cell firing driven by self-motion to perform path integration, either using oscillatory interference (via Fourier components as velocity-controlled oscillators) or continuous attractor networks (via analysis of the update dynamics). We thus provide a unifying framework for the role of the grid system in predictive planning, sense of direction and path integration: supporting generalisable inference over directed actions across different tasks.",
+    "published_date": "2020-06-05T10:32:22Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG"
+    ]
+  },
+  {
+    "arxiv_id": "1906.11286v7",
+    "title": "A Story of Two Streams: Reinforcement Learning Models from Human Behavior and Neuropsychiatry",
+    "authors": [
+      "Baihan Lin",
+      "Guillermo Cecchi",
+      "Djallel Bouneffouf",
+      "Jenna Reinen",
+      "Irina Rish"
+    ],
+    "abstract": "Drawing an inspiration from behavioral studies of human decision making, we propose here a more general and flexible parametric framework for reinforcement learning that extends standard Q-learning to a two-stream model for processing positive and negative rewards, and allows to incorporate a wide range of reward-processing biases -- an important component of human decision making which can help us better understand a wide spectrum of multi-agent interactions in complex real-world socioeconomic systems, as well as various neuropsychiatric conditions associated with disruptions in normal reward processing. From the computational perspective, we observe that the proposed Split-QL model and its clinically inspired variants consistently outperform standard Q-Learning and SARSA methods, as well as recently proposed Double Q-Learning approaches, on simulated tasks with particular reward distributions, a real-world dataset capturing human decision-making in gambling tasks, and the Pac-Man game in a lifelong learning setting across different reward stationarities.",
+    "published_date": "2019-06-21T03:31:37Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.MA",
+      "q-bio.NC",
+      "stat.ML"
+    ]
+  },
+  {
+    "arxiv_id": "2010.10926v1",
+    "title": "Efficient Similarity-Preserving Unsupervised Learning using Modular Sparse Distributed Codes and Novelty-Contingent Noise",
+    "authors": [
+      "Rod Rinkus"
+    ],
+    "abstract": "There is increasing realization in neuroscience that information is represented in the brain, e.g., neocortex, hippocampus, in the form sparse distributed codes (SDCs), a kind of cell assembly. Two essential questions are: a) how are such codes formed on the basis of single trials, and how is similarity preserved during learning, i.e., how do more similar inputs get mapped to more similar SDCs. I describe a novel Modular Sparse Distributed Code (MSDC) that provides simple, neurally plausible answers to both questions. An MSDC coding field (CF) consists of Q WTA competitive modules (CMs), each comprised of K binary units (analogs of principal cells). The modular nature of the CF makes possible a single-trial, unsupervised learning algorithm that approximately preserves similarity and crucially, runs in fixed time, i.e., the number of steps needed to store an item remains constant as the number of stored items grows. Further, once items are stored as MSDCs in superposition and such that their intersection structure reflects input similarity, both fixed time best-match retrieval and fixed time belief update (updating the probabilities of all stored items) also become possible. The algorithm's core principle is simply to add noise into the process of choosing a code, i.e., choosing a winner in each CM, which is proportional to the novelty of the input. This causes the expected intersection of the code for an input, X, with the code of each previously stored input, Y, to be proportional to the similarity of X and Y. Results demonstrating these capabilities for spatial patterns are given in the appendix.",
+    "published_date": "2020-10-19T17:36:04Z",
+    "categories": [
+      "cs.LG",
+      "cs.NE",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "2603.17947v1",
+    "title": "Unified Policy Value Decomposition for Rapid Adaptation",
+    "authors": [
+      "Cristiano Capone",
+      "Luca Falorsi",
+      "Andrea Ciardiello",
+      "Luca Manneschi"
+    ],
+    "abstract": "Rapid adaptation in complex control systems remains a central challenge in reinforcement learning. We introduce a framework in which policy and value functions share a low-dimensional coefficient vector - a goal embedding - that captures task identity and enables immediate adaptation to novel tasks without retraining representations. During pretraining, we jointly learn structured value bases and compatible policy bases through a bilinear actor-critic decomposition. The critic factorizes as Q = sum_k G_k(g) y_k(s,a), where G_k(g) is a goal-conditioned coefficient vector and y_k(s,a) are learned value basis functions. This multiplicative gating - where a context signal scales a set of state-dependent bases - is reminiscent of gain modulation observed in Layer 5 pyramidal neurons, where top-down inputs modulate the gain of sensory-driven responses without altering their tuning. Building on Successor Features, we extend the decomposition to the actor, which composes a set of primitive policies weighted by the same coefficients G_k(g). At test time the bases are frozen and G_k(g) is estimated zero-shot via a single forward pass, enabling immediate adaptation to novel tasks without any gradient update. We train a Soft Actor-Critic agent on the MuJoCo Ant environment under a multi-directional locomotion objective, requiring the agent to walk in eight directions specified as continuous goal vectors. The bilinear structure allows each policy head to specialize to a subset of directions, while the shared coefficient layer generalizes across them, accommodating novel directions by interpolating in goal embedding space. Our results suggest that shared low-dimensional goal embeddings offer a general mechanism for rapid, structured adaptation in high-dimensional control, and highlight a potentially biologically plausible principle for efficient transfer in complex reinforcement learning systems.",
+    "published_date": "2026-03-18T17:19:56Z",
+    "categories": [
+      "cs.LG",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "2603.16741v1",
+    "title": "Bayesian Inference of Psychometric Variables From Brain and Behavior in Implicit Association Tests",
+    "authors": [
+      "Christian A. Kothe",
+      "Sean Mullen",
+      "Michael V. Bronstein",
+      "Grant Hanada",
+      "Marcelo Cicconet",
+      "Aaron N. McInnes",
+      "Tim Mullen",
+      "Marc Aafjes",
+      "Scott R. Sponheim",
+      "Alik S. Widge"
+    ],
+    "abstract": "Objective. We establish a principled method for inferring mental health related psychometric variables from neural and behavioral data using the Implicit Association Test (IAT) as the data generation engine, aiming to overcome the limited predictive performance (typically under 0.7 AUC) of the gold-standard D-score method, which relies solely on reaction times.\n  Approach. We propose a sparse hierarchical Bayesian model that leverages multi-modal data to predict experiences related to mental illness symptoms in new participants. The model is a multivariate generalization of the D-score with trainable parameters, engineered for parameter efficiency in the small-cohort regime typical of IAT studies. Data from two IAT variants were analyzed: a suicidality-related E-IAT ($n=39$) and a psychosis-related PSY-IAT ($n=34$).\n  Main Results. Our approach overcomes a high inter-individual variability and low within-session effect size in the dataset, reaching AUCs of 0.73 (E-IAT) and 0.76 (PSY-IAT) in the best modality configurations, though corrected 95% confidence intervals are wide ($\\pm 0.18$) and results are marginally significant after FDR correction ($q=0.10$). Restricting the E-IAT to MDD participants improves AUC to 0.79 $[0.62, 0.97]$ (significant at $q=0.05$). Performance is on par with the best reference methods (shrinkage LDA and EEGNet) for each task, even when the latter were adapted to the task, while the proposed method was not. Accuracy was substantially above near-chance D-scores (0.50-0.53 AUC) in both tasks, with more consistent cross-task performance than any single reference method.\n  Significance. Our framework shows promise for enhancing IAT-based assessment of experiences related to entrapment and psychosis, and potentially other mental health conditions, though further validation on larger and independent cohorts will be needed to establish clinical utility.",
+    "published_date": "2026-03-17T16:20:55Z",
+    "categories": [
+      "cs.LG",
+      "q-bio.NC",
+      "q-bio.QM",
+      "stat.ML"
+    ]
+  },
+  {
+    "arxiv_id": "2211.05786v1",
+    "title": "Data-Driven Disease Progression Modelling",
+    "authors": [
+      "Neil P. Oxtoby"
+    ],
+    "abstract": "Intense debate in the Neurology community before 2010 culminated in hypothetical models of Alzheimer's disease progression: a pathophysiological cascade of biomarkers, each dynamic for only a segment of the full disease timeline. Inspired by this, data-driven disease progression modelling emerged from the computer science community with the aim to reconstruct neurodegenerative disease timelines using data from large cohorts of patients, healthy controls, and prodromal/at-risk individuals. This chapter describes selected highlights from the field, with a focus on utility for understanding and forecasting of disease progression.",
+    "published_date": "2022-11-01T10:55:31Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2002.08470v1",
+    "title": "The Information in Emotion Communication",
+    "authors": [
+      "Alison Duncan Kerr",
+      "Kevin Scharp"
+    ],
+    "abstract": "How much information is transmitted when animals use emotions to communicate? It is clear that emotions are used as communication systems in humans and other species. The quantitative theory of emotion information presented here is based on Shannon's mathematical theory of information in communication systems. The theory explains myriad aspects of emotion communication and offers dozens of new directions for research. It is superior to the \"contagion\" theory of emotion spreading, which is currently dominant. One important application of the information theory of emotion communication is that it permits the development of emotion security systems for social networks to guard against the widespread emotion manipulation we see online today.",
+    "published_date": "2020-02-14T22:42:26Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "q-bio.PE"
+    ]
+  },
+  {
+    "arxiv_id": "1911.09948v1",
+    "title": "Decision Making guided by Emotion A computational architecture",
+    "authors": [
+      "Dominique Béroule",
+      "Pascale Gisquet-Verrier"
+    ],
+    "abstract": "A computational architecture is presented, in which \"swift and fuzzy\" emotional channels guide a \"slow and precise\" decision-making channel. Reported neurobiological studies first provide hints on the representation of both emotional and cognitive dimensions across brain structures, mediated by the neuromodulation system. The related model is based on Guided Propagation Networks, the inner flows of which can be guided through modulation. A key-channel of this model grows from a few emotional cues, and is aimed at anticipating the consequences of ongoing possible actions. Current experimental results of a computer simulation show the integrated contribution of several emotional influences, as well as issues of accidental all-out emotions.",
+    "published_date": "2019-11-22T09:49:34Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "cs.NE",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2211.02636v2",
+    "title": "Towards Alzheimer's Disease Progression Assessment: A Review of Machine Learning Methods",
+    "authors": [
+      "Zibin Zhao"
+    ],
+    "abstract": "Alzheimer's Disease (AD), as the most devastating neurodegenerative disease worldwide, has reached nearly 10 million new cases annually. Current technology provides unprecedented opportunities to study the progression and etiology of this disease with the advanced in imaging techniques. With the recent emergence of a society driven by big data and machine learning (ML), researchers have exerted considerable effort to summarize recent advances in ML-based AD diagnosis. Here, we outline some of the most prevalent and recent ML models for assessing the progression of AD and provide insights on the challenges, opportunities, and future directions that could be advantageous to future research in AD using ML.",
+    "published_date": "2022-11-01T07:50:06Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2211.09096v1",
+    "title": "Testing geometric representation hypotheses from simulated place cell recordings",
+    "authors": [
+      "Thibault Niederhauser",
+      "Adam Lester",
+      "Nina Miolane",
+      "Khanh Dao Duc",
+      "Manu S. Madhav"
+    ],
+    "abstract": "Hippocampal place cells can encode spatial locations of an animal in physical or task-relevant spaces. We simulated place cell populations that encoded either Euclidean- or graph-based positions of a rat navigating to goal nodes in a maze with a graph topology, and used manifold learning methods such as UMAP and Autoencoders (AE) to analyze these neural population activities. The structure of the latent spaces learned by the AE reflects their true geometric structure, while PCA fails to do so and UMAP is less robust to noise. Our results support future applications of AE architectures to decipher the geometry of spatial encoding in the brain.",
+    "published_date": "2022-11-16T18:29:17Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.AI",
+      "cs.LG",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2005.12513v1",
+    "title": "DeepRetinotopy: Predicting the Functional Organization of Human Visual Cortex from Structural MRI Data using Geometric Deep Learning",
+    "authors": [
+      "Fernanda L. Ribeiro",
+      "Steffen Bollmann",
+      "Alexander M. Puckett"
+    ],
+    "abstract": "Whether it be in a man-made machine or a biological system, form and function are often directly related. In the latter, however, this particular relationship is often unclear due to the intricate nature of biology. Here we developed a geometric deep learning model capable of exploiting the actual structure of the cortex to learn the complex relationship between brain function and anatomy from structural and functional MRI data. Our model was not only able to predict the functional organization of human visual cortex from anatomical properties alone, but it was also able to predict nuanced variations across individuals.",
+    "published_date": "2020-05-26T04:54:31Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.CV",
+      "cs.LG",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2310.02152v2",
+    "title": "Graph Neural Network-based EEG Classification: A Survey",
+    "authors": [
+      "Dominik Klepl",
+      "Min Wu",
+      "Fei He"
+    ],
+    "abstract": "Graph neural networks (GNN) are increasingly used to classify EEG for tasks such as emotion recognition, motor imagery and neurological diseases and disorders. A wide range of methods have been proposed to design GNN-based classifiers. Therefore, there is a need for a systematic review and categorisation of these approaches. We exhaustively search the published literature on this topic and derive several categories for comparison. These categories highlight the similarities and differences among the methods. The results suggest a prevalence of spectral graph convolutional layers over spatial. Additionally, we identify standard forms of node features, with the most popular being the raw EEG signal and differential entropy. Our results summarise the emerging trends in GNN-based approaches for EEG classification. Finally, we discuss several promising research directions, such as exploring the potential of transfer learning methods and appropriate modelling of cross-frequency interactions.",
+    "published_date": "2023-10-03T15:40:03Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "1701.07243v1",
+    "title": "Decoding Epileptogenesis in a Reduced State Space",
+    "authors": [
+      "François G. Meyer",
+      "Alexander M. Benison",
+      "Zachariah Smith",
+      "Daniel S. Barth"
+    ],
+    "abstract": "We describe here the recent results of a multidisciplinary effort to design a biomarker that can actively and continuously decode the progressive changes in neuronal organization leading to epilepsy, a process known as epileptogenesis. Using an animal model of acquired epilepsy, wechronically record hippocampal evoked potentials elicited by an auditory stimulus. Using a set of reduced coordinates, our algorithm can identify universal smooth low-dimensional configurations of the auditory evoked potentials that correspond to distinct stages of epileptogenesis. We use a hidden Markov model to learn the dynamics of the evoked potential, as it evolves along these smooth low-dimensional subsets. We provide experimental evidence that the biomarker is able to exploit subtle changes in the evoked potential to reliably decode the stage of epileptogenesis and predict whether an animal will eventually recover from the injury, or develop spontaneous seizures.",
+    "published_date": "2017-01-25T10:25:59Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "1309.2848v1",
+    "title": "High-dimensional cluster analysis with the Masked EM Algorithm",
+    "authors": [
+      "Shabnam N. Kadir",
+      "Dan F. M. Goodman",
+      "Kenneth D. Harris"
+    ],
+    "abstract": "Cluster analysis faces two problems in high dimensions: first, the `curse of dimensionality' that can lead to overfitting and poor generalization performance; and second, the sheer time taken for conventional algorithms to process large amounts of high-dimensional data. In many applications, only a small subset of features provide information about the cluster membership of any one data point, however this informative feature subset may not be the same for all data points. Here we introduce a `Masked EM' algorithm for fitting mixture of Gaussians models in such cases. We show that the algorithm performs close to optimally on simulated Gaussian data, and in an application of `spike sorting' of high channel-count neuronal recordings.",
+    "published_date": "2013-09-11T14:55:50Z",
+    "categories": [
+      "q-bio.QM",
+      "cs.LG",
+      "q-bio.NC",
+      "stat.AP"
+    ]
+  },
+  {
+    "arxiv_id": "2108.08214v1",
+    "title": "Distinguishing Healthy Ageing from Dementia: a Biomechanical Simulation of Brain Atrophy using Deep Networks",
+    "authors": [
+      "Mariana Da Silva",
+      "Carole H. Sudre",
+      "Kara Garcia",
+      "Cher Bass",
+      "M. Jorge Cardoso",
+      "Emma C. Robinson"
+    ],
+    "abstract": "Biomechanical modeling of tissue deformation can be used to simulate different scenarios of longitudinal brain evolution. In this work,we present a deep learning framework for hyper-elastic strain modelling of brain atrophy, during healthy ageing and in Alzheimer's Disease. The framework directly models the effects of age, disease status, and scan interval to regress regional patterns of atrophy, from which a strain-based model estimates deformations. This model is trained and validated using 3D structural magnetic resonance imaging data from the ADNI cohort. Results show that the framework can estimate realistic deformations, following the known course of Alzheimer's disease, that clearly differentiate between healthy and demented patterns of ageing. This suggests the framework has potential to be incorporated into explainable models of disease, for the exploration of interventions and counterfactual examples.",
+    "published_date": "2021-08-18T15:58:53Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "eess.IV",
+      "q-bio.TO"
+    ]
+  },
+  {
+    "arxiv_id": "1803.09018v1",
+    "title": "The Importance of Constraint Smoothness for Parameter Estimation in Computational Cognitive Modeling",
+    "authors": [
+      "Abraham Nunes",
+      "Alexander Rudiuk"
+    ],
+    "abstract": "Psychiatric neuroscience is increasingly aware of the need to define psychopathology in terms of abnormal neural computation. The central tool in this endeavour is the fitting of computational models to behavioural data. The most prominent example of this procedure is fitting reinforcement learning (RL) models to decision-making data collected from mentally ill and healthy subject populations. These models are generative models of the decision-making data themselves, and the parameters we seek to infer can be psychologically and neurobiologically meaningful. Currently, the gold standard approach to this inference procedure involves Monte-Carlo sampling, which is robust but computationally intensive---rendering additional procedures, such as cross-validation, impractical. Searching for point estimates of model parameters using optimization procedures remains a popular and interesting option. On a novel testbed simulating parameter estimation from a common RL task, we investigated the effects of smooth vs. boundary constraints on parameter estimation using interior point and deterministic direct search algorithms for optimization. Ultimately, we show that the use of boundary constraints can lead to substantial truncation effects. Our results discourage the use of boundary constraints for these applications.",
+    "published_date": "2018-03-24T00:25:20Z",
+    "categories": [
+      "q-bio.QM",
+      "cs.LG",
+      "q-bio.NC",
+      "stat.ML"
+    ]
+  },
+  {
+    "arxiv_id": "2312.00811v1",
+    "title": "Seizure detection from Electroencephalogram signals via Wavelets and Graph Theory metrics",
+    "authors": [
+      "Paul Grant",
+      "Md Zahidul Islam"
+    ],
+    "abstract": "Epilepsy is one of the most prevalent neurological conditions, where an epileptic seizure is a transient occurrence due to abnormal, excessive and synchronous activity in the brain. Electroencephalogram signals emanating from the brain may be captured, analysed and then play a significant role in detection and prediction of epileptic seizures. In this work we enhance upon a previous approach that relied on the differing properties of the wavelet transform. Here we apply the Maximum Overlap Discrete Wavelet Transform to both reduce signal \\textit{noise} and use signal variance exhibited at differing inherent frequency levels to develop various metrics of connection between the electrodes placed upon the scalp. %The properties of both the noise reduced signal and the interconnected electrodes differ significantly during the different brain states.\n  Using short duration epochs, to approximate close to real time monitoring, together with simple statistical parameters derived from the reconstructed noise reduced signals we initiate seizure detection. To further improve performance we utilise graph theoretic indicators from derived electrode connectivity. From there we build the attribute space. We utilise open-source software and publicly available data to highlight the superior Recall/Sensitivity performance of our approach, when compared to existing published methods.",
+    "published_date": "2023-11-28T01:07:14Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2511.07313v1",
+    "title": "De-Individualizing fMRI Signals via Mahalanobis Whitening and Bures Geometry",
+    "authors": [
+      "Aaron Jacobson",
+      "Tingting Dan",
+      "Martin Styner",
+      "Guorong Wu",
+      "Shahar Kovalsky",
+      "Caroline Moosmueller"
+    ],
+    "abstract": "Functional connectivity has been widely investigated to understand brain disease in clinical studies and imaging-based neuroscience, and analyzing changes in functional connectivity has proven to be valuable for understanding and computationally evaluating the effects on brain function caused by diseases or experimental stimuli. By using Mahalanobis data whitening prior to the use of dimensionality reduction algorithms, we are able to distill meaningful information from fMRI signals about subjects and the experimental stimuli used to prompt them. Furthermore, we offer an interpretation of Mahalanobis whitening as a two-stage de-individualization of data which is motivated by similarity as captured by the Bures distance, which is connected to quantum mechanics. These methods have potential to aid discoveries about the mechanisms that link brain function with cognition and behavior and may improve the accuracy and consistency of Alzheimer's diagnosis, especially in the preclinical stage of disease progression.",
+    "published_date": "2025-11-10T17:14:48Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2509.17174v2",
+    "title": "Self-Supervised Discovery of Neural Circuits in Spatially Patterned Neural Responses with Graph Neural Networks",
+    "authors": [
+      "Kijung Yoon"
+    ],
+    "abstract": "Inferring synaptic connectivity from neural population activity is a fundamental challenge in computational neuroscience, complicated by partial observability and mismatches between inference models and true circuit dynamics. In this study, we propose a graph-based neural inference model that simultaneously predicts neural activity and infers latent connectivity by modeling neurons as interacting nodes in a graph. The architecture features two distinct modules: one for learning structural connectivity and another for predicting future spiking activity via a graph neural network (GNN). Our model accommodates unobserved neurons through auxiliary nodes, allowing for inference in partially observed circuits. We evaluate this approach using synthetic data generated from ring attractor network models and real spike recordings from head direction cells in mice. Across a wide range of conditions, including varying recurrent connectivity, external inputs, and incomplete observations, our model reliably resolves spurious correlations and recovers accurate weight profiles. When applied to real data, the inferred connectivity aligns with theoretical predictions of continuous attractor models. These results highlight the potential of GNN-based models to infer latent neural circuitry through self-supervised structure learning, while leveraging the spike prediction task to flexibly link connectivity and dynamics across both simulated and biological neural systems.",
+    "published_date": "2025-09-21T17:46:43Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2212.07790v1",
+    "title": "Population Template-Based Brain Graph Augmentation for Improving One-Shot Learning Classification",
+    "authors": [
+      "Oben Özgür",
+      "Arwa Rekik",
+      "Islem Rekik"
+    ],
+    "abstract": "The challenges of collecting medical data on neurological disorder diagnosis problems paved the way for learning methods with scarce number of samples. Due to this reason, one-shot learning still remains one of the most challenging and trending concepts of deep learning as it proposes to simulate the human-like learning approach in classification problems. Previous studies have focused on generating more accurate fingerprints of the population using graph neural networks (GNNs) with connectomic brain graph data. Thereby, generated population fingerprints named connectional brain template (CBTs) enabled detecting discriminative bio-markers of the population on classification tasks. However, the reverse problem of data augmentation from single graph data representing brain connectivity has never been tackled before. In this paper, we propose an augmentation pipeline in order to provide improved metrics on our binary classification problem. Divergently from the previous studies, we examine augmentation from a single population template by utilizing graph-based generative adversarial network (gGAN) architecture for a classification problem. We benchmarked our proposed solution on AD/LMCI dataset consisting of brain connectomes with Alzheimer's Disease (AD) and Late Mild Cognitive Impairment (LMCI). In order to evaluate our model's generalizability, we used cross-validation strategy and randomly sampled the folds multiple times. Our results on classification not only provided better accuracy when augmented data generated from one sample is introduced, but yields more balanced results on other metrics as well.",
+    "published_date": "2022-12-14T14:56:00Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.AI",
+      "cs.LG",
+      "cs.NE",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2304.05874v3",
+    "title": "Adaptive Gated Graph Convolutional Network for Explainable Diagnosis of Alzheimer's Disease using EEG Data",
+    "authors": [
+      "Dominik Klepl",
+      "Fei He",
+      "Min Wu",
+      "Daniel J. Blackburn",
+      "Ptolemaios G. Sarrigiannis"
+    ],
+    "abstract": "Graph neural network (GNN) models are increasingly being used for the classification of electroencephalography (EEG) data. However, GNN-based diagnosis of neurological disorders, such as Alzheimer's disease (AD), remains a relatively unexplored area of research. Previous studies have relied on functional connectivity methods to infer brain graph structures and used simple GNN architectures for the diagnosis of AD. In this work, we propose a novel adaptive gated graph convolutional network (AGGCN) that can provide explainable predictions. AGGCN adaptively learns graph structures by combining convolution-based node feature enhancement with a correlation-based measure of power spectral density similarity. Furthermore, the gated graph convolution can dynamically weigh the contribution of various spatial scales. The proposed model achieves high accuracy in both eyes-closed and eyes-open conditions, indicating the stability of learned representations. Finally, we demonstrate that the proposed AGGCN model generates consistent explanations of its predictions that might be relevant for further study of AD-related alterations of brain networks.",
+    "published_date": "2023-04-12T14:13:09Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.AI",
+      "cs.LG",
+      "cs.NE",
+      "eess.SP",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2009.03272v1",
+    "title": "Graph Convolutional Networks Reveal Neural Connections Encoding Prosthetic Sensation",
+    "authors": [
+      "Vivek Subramanian",
+      "Joshua Khani"
+    ],
+    "abstract": "Extracting stimulus features from neuronal ensembles is of great interest to the development of neuroprosthetics that project sensory information directly to the brain via electrical stimulation. Machine learning strategies that optimize stimulation parameters as the subject learns to interpret the artificial input could improve device efficacy, increase prosthetic performance, ensure stability of evoked sensations, and improve power consumption by eliminating extraneous input. Recent advances extending deep learning techniques to non-Euclidean graph data provide a novel approach to interpreting neuronal spiking activity. For this study, we apply graph convolutional networks (GCNs) to infer the underlying functional relationship between neurons that are involved in the processing of artificial sensory information. Data was collected from a freely behaving rat using a four infrared (IR) sensor, ICMS-based neuroprosthesis to localize IR light sources. We use GCNs to predict the stimulation frequency across four stimulating channels in the prosthesis, which encode relative distance and directional information to an IR-emitting reward port. Our GCN model is able to achieve a peak performance of 73.5% on a modified ordinal regression performance metric in a multiclass classification problem consisting of 7 classes, where chance is 14.3%. Additionally, the inferred adjacency matrix provides a adequate representation of the underlying neural circuitry encoding the artificial sensation.",
+    "published_date": "2020-08-23T01:43:46Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "q-bio.QM",
+      "stat.ML"
+    ]
+  },
+  {
+    "arxiv_id": "1908.04758v3",
+    "title": "Gait recognition via deep learning of the center-of-pressure trajectory",
+    "authors": [
+      "Philippe Terrier"
+    ],
+    "abstract": "The fact that every human has a distinctive walking style has prompted a proposal to use gait recognition as an identification criterion. Using end-to-end learning, I investigated whether the center-of-pressure trajectory is sufficiently unique to identify a person with a high certainty. Thirty-six adults walked on a treadmill equipped with a force platform that recorded the positions of the center of pressure. The raw two-dimensional signals were sliced into segments of two gait cycles. A set of 20,250 segments from 30 subjects was used to configure and train convolutional neural networks (CNNs). The best CNN classified a separate set containing 2,250 segments with 99.9% overall accuracy. A second set of 4,500 segments from the six remaining subjects was then used for transfer learning. Several small subsamples of this set were selected randomly and used for fine tuning. Training with two segments per subject was sufficient to achieve 100% accuracy. The results suggest that every person produces a unique trajectory of underfoot pressures and that CNNs can learn the distinctive features of these trajectories. Using transfer learning, a few strides could be sufficient to learn and identify new gaits.",
+    "published_date": "2019-07-24T09:49:57Z",
+    "categories": [
+      "q-bio.QM",
+      "cs.LG",
+      "q-bio.NC",
+      "stat.ML"
+    ]
+  },
+  {
+    "arxiv_id": "2505.02248v1",
+    "title": "Heterosynaptic Circuits Are Universal Gradient Machines",
+    "authors": [
+      "Liu Ziyin",
+      "Isaac Chuang",
+      "Tomaso Poggio"
+    ],
+    "abstract": "We propose a design principle for the learning circuits of the biological brain. The principle states that almost any dendritic weights updated via heterosynaptic plasticity can implement a generalized and efficient class of gradient-based meta-learning. The theory suggests that a broad class of biologically plausible learning algorithms, together with the standard machine learning optimizers, can be grounded in heterosynaptic circuit motifs. This principle suggests that the phenomenology of (anti-) Hebbian (HBP) and heterosynaptic plasticity (HSP) may emerge from the same underlying dynamics, thus providing a unifying explanation. It also suggests an alternative perspective of neuroplasticity, where HSP is promoted to the primary learning and memory mechanism, and HBP is an emergent byproduct. We present simulations that show that (a) HSP can explain the metaplasticity of neurons, (b) HSP can explain the flexibility of the biology circuits, and (c) gradient learning can arise quickly from simple evolutionary dynamics that do not compute any explicit gradient. While our primary focus is on biology, the principle also implies a new approach to designing AI training algorithms and physically learnable AI hardware. Conceptually, our result demonstrates that contrary to the common belief, gradient computation may be extremely easy and common in nature.",
+    "published_date": "2025-05-04T21:04:32Z",
+    "categories": [
+      "q-bio.NC",
+      "cond-mat.dis-nn",
+      "cs.LG",
+      "cs.NE",
+      "q-bio.PE"
+    ]
+  },
+  {
+    "arxiv_id": "2405.06651v1",
+    "title": "Using GANs for De Novo Protein Design Targeting Microglial IL-3R$α$ to Inhibit Alzheimer's Progression",
+    "authors": [
+      "Arnav Swaroop"
+    ],
+    "abstract": "IL-3 is a hemopoietic growth factor that usually targets blood cell precursors; IL-3R is a cytokine receptor that binds to IL-3. However, IL-3 takes on a different role in the context of glial cells in the nervous system, where studies show that the protein IL-3 protects against Alzheimer's disease by activating microglia at their IL-3R receptors, causing the microglia to clear out the tangles caused by the build-up of misfolded Tau proteins. In this study, we seek to ascertain what role the secondary structure of IL-3 plays in its binding with the receptor. The motivation behind this study is to learn more about the mechanism and identify possible drugs that might be able to activate it, in hopes of inhibiting the spread of Alzheimer's Disease. From a preliminary analysis of complexes containing IL-3 and IL-3R, we hypothesized that the binding is largely due to the interactions of three alpha helix structures stretching towards the active site on the receptor. The original Il-3 protein serves as the control in this experiment; the other proteins being tested are generated through several types of computational de novo protein design, where machine learning allows for the production of entirely novel structures. The efficacy of the generated proteins is assessed through docking simulations with the IL-3R receptor, and the binding poses are also qualitatively examined to gain insight into the function of the binding. From the docking data and poses, the most successful proteins were those with similar secondary structure to IL-3.",
+    "published_date": "2024-04-05T03:16:11Z",
+    "categories": [
+      "q-bio.BM",
+      "cs.LG",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "1908.03264v1",
+    "title": "Identification of Effective Connectivity Subregions",
+    "authors": [
+      "Ruben Sanchez-Romero",
+      "Joseph D. Ramsey",
+      "Kun Zhang",
+      "Clark Glymour"
+    ],
+    "abstract": "Standard fMRI connectivity analyses depend on aggregating the time series of individual voxels within regions of interest (ROIs). In certain cases, this spatial aggregation implies a loss of valuable functional and anatomical information about smaller subsets of voxels that drive the ROI level connectivity. We use two recently published graphical search methods to identify subsets of voxels that are highly responsible for the connectivity between larger ROIs. To illustrate the procedure, we apply both methods to longitudinal high-resolution resting state fMRI data from regions in the medial temporal lobe from a single individual. Both methods recovered similar subsets of voxels within larger ROIs of entorhinal cortex and hippocampus subfields that also show spatial consistency across different scanning sessions and across hemispheres. In contrast to standard functional connectivity methods, both algorithms applied here are robust against false positive connections produced by common causes and indirect paths (in contrast to Pearson's correlation) and common effect conditioning (in contrast to partial correlation based approaches). These algorithms allow for identification of subregions of voxels driving the connectivity between regions of interest, recovering valuable anatomical and functional information that is lost when ROIs are aggregated. Both methods are specially suited for voxelwise connectivity research, given their running times and scalability to big data problems.",
+    "published_date": "2019-08-08T20:43:22Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "eess.IV",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2004.14580v2",
+    "title": "Prediction of Epilepsy Development in Traumatic Brain Injury Patients from Diffusion Weighted MRI",
+    "authors": [
+      "Md Navid Akbar",
+      "Marianna La Rocca",
+      "Rachael Garner",
+      "Dominique Duncan",
+      "Deniz Erdoğmuş"
+    ],
+    "abstract": "Post-traumatic epilepsy (PTE) is a life-long complication of traumatic brain injury (TBI) and is a major public health problem that has an estimated incidence that ranges from 2%-50%, depending on the severity of the TBI. Currently, the pathomechanism that in-duces epileptogenesis in TBI patients is unclear, and one of the most challenging goals in the epilepsy community is to predict which TBI patients will develop epilepsy. In this work, we used diffusion-weighted imaging (DWI) of 14 TBI patients recruited in the Epilepsy Bioinformatics Study for Antiepileptogenic Therapy (EpiBioS4Rx)to measure and analyze fractional anisotropy (FA), obtained from tract-based spatial statistic (TBSS) analysis. Then we used these measurements to train two support vector machine (SVM) models to predict which TBI patients have developed epilepsy. Our approach, tested on these 14 patients with a leave-two-out cross-validation, allowed us to obtain an accuracy of 0.857 $\\pm$ 0.18 (with a 95% level of confidence), demonstrating it to be potentially promising for the early characterization of PTE.",
+    "published_date": "2020-04-30T04:06:24Z",
+    "categories": [
+      "q-bio.QM",
+      "cs.LG",
+      "eess.IV",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "2506.18314v2",
+    "title": "BrainSymphony: A parameter-efficient multimodal foundation model for brain dynamics with limited data",
+    "authors": [
+      "Moein Khajehnejad",
+      "Forough Habibollahi",
+      "Devon Stoliker",
+      "Adeel Razi"
+    ],
+    "abstract": "Foundation models are transforming neuroscience but are often prohibitively large, data-hungry, and difficult to deploy. Here, we introduce BrainSymphony, a lightweight and parameter-efficient foundation model with plug-and-play integration of fMRI time series and diffusion-derived structural connectivity, allowing unimodal or multimodal training and deployment without architectural changes while requiring substantially less data compared to the state-of-the-art. The model processes fMRI time series through parallel spatial and temporal transformer streams, distilled into compact embeddings by a Perceiver module, while a novel signed graph transformer encodes anatomical connectivity from diffusion MRI. These complementary representations are then combined through an adaptive fusion mechanism. Despite its compact design, BrainSymphony consistently outperforms larger models on benchmarks spanning prediction, classification, and unsupervised network discovery. Highlighting the model's generalizability and interpretability, attention maps reveal drug-induced context-dependent reorganization of cortical hierarchies in an independent psilocybin neuroimaging dataset. BrainSymphony delivers accessible, interpretable, and clinically meaningful results and demonstrates that architecturally informed, multimodal models can surpass much larger counterparts and advance applications of AI in neuroscience.",
+    "published_date": "2025-06-23T06:00:21Z",
+    "categories": [
+      "q-bio.QM",
+      "cs.LG",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "2009.14280v2",
+    "title": "Learning to swim in potential flow",
+    "authors": [
+      "Yusheng Jiao",
+      "Feng Ling",
+      "Sina Heydari",
+      "Nicolas Heess",
+      "Josh Merel",
+      "Eva Kanso"
+    ],
+    "abstract": "Fish swim by undulating their bodies. These propulsive motions require coordinated shape changes of a body that interacts with its fluid environment, but the specific shape coordination that leads to robust turning and swimming motions remains unclear. To address the problem of underwater motion planning, we propose a simple model of a three-link fish swimming in a potential flow environment and we use model-free reinforcement learning for shape control. We arrive at optimal shape changes for two swimming tasks: swimming in a desired direction and swimming towards a known target. This fish model belongs to a class of problems in geometric mechanics, known as driftless dynamical systems, which allow us to analyze the swimming behavior in terms of geometric phases over the shape space of the fish. These geometric methods are less intuitive in the presence of drift. Here, we use the shape space analysis as a tool for assessing, visualizing, and interpreting the control policies obtained via reinforcement learning in the absence of drift. We then examine the robustness of these policies to drift-related perturbations. Although the fish has no direct control over the drift itself, it learns to take advantage of the presence of moderate drift to reach its target.",
+    "published_date": "2020-09-30T06:31:27Z",
+    "categories": [
+      "q-bio.QM",
+      "cs.LG",
+      "physics.flu-dyn",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "2409.19710v1",
+    "title": "A multimodal LLM for the non-invasive decoding of spoken text from brain recordings",
+    "authors": [
+      "Youssef Hmamouche",
+      "Ismail Chihab",
+      "Lahoucine Kdouri",
+      "Amal El Fallah Seghrouchni"
+    ],
+    "abstract": "Brain-related research topics in artificial intelligence have recently gained popularity, particularly due to the expansion of what multimodal architectures can do from computer vision to natural language processing. Our main goal in this work is to explore the possibilities and limitations of these architectures in spoken text decoding from non-invasive fMRI recordings. Contrary to vision and textual data, fMRI data represent a complex modality due to the variety of brain scanners, which implies (i) the variety of the recorded signal formats, (ii) the low resolution and noise of the raw signals, and (iii) the scarcity of pretrained models that can be leveraged as foundation models for generative learning. These points make the problem of the non-invasive decoding of text from fMRI recordings very challenging. In this paper, we propose and end-to-end multimodal LLM for decoding spoken text from fMRI signals. The proposed architecture is founded on (i) an encoder derived from a specific transformer incorporating an augmented embedding layer for the encoder and a better-adjusted attention mechanism than that present in the state of the art, and (ii) a frozen large language model adapted to align the embedding of the input text and the encoded embedding of brain activity to decode the output text. A benchmark in performed on a corpus consisting of a set of interactions human-human and human-robot interactions where fMRI and conversational signals are recorded synchronously. The obtained results are very promising, as our proposal outperforms the evaluated models, and is able to generate text capturing more accurate semantics present in the ground truth. The implementation code is provided in https://github.com/Hmamouche/brain_decode.",
+    "published_date": "2024-09-29T14:03:39Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.CL",
+      "cs.LG",
+      "cs.SD",
+      "eess.AS",
+      "eess.SP",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2306.10168v3",
+    "title": "Beyond Geometry: Comparing the Temporal Structure of Computation in Neural Circuits with Dynamical Similarity Analysis",
+    "authors": [
+      "Mitchell Ostrow",
+      "Adam Eisen",
+      "Leo Kozachkov",
+      "Ila Fiete"
+    ],
+    "abstract": "How can we tell whether two neural networks utilize the same internal processes for a particular computation? This question is pertinent for multiple subfields of neuroscience and machine learning, including neuroAI, mechanistic interpretability, and brain-machine interfaces. Standard approaches for comparing neural networks focus on the spatial geometry of latent states. Yet in recurrent networks, computations are implemented at the level of dynamics, and two networks performing the same computation with equivalent dynamics need not exhibit the same geometry. To bridge this gap, we introduce a novel similarity metric that compares two systems at the level of their dynamics, called Dynamical Similarity Analysis (DSA). Our method incorporates two components: Using recent advances in data-driven dynamical systems theory, we learn a high-dimensional linear system that accurately captures core features of the original nonlinear dynamics. Next, we compare different systems passed through this embedding using a novel extension of Procrustes Analysis that accounts for how vector fields change under orthogonal transformation. In four case studies, we demonstrate that our method disentangles conjugate and non-conjugate recurrent neural networks (RNNs), while geometric methods fall short. We additionally show that our method can distinguish learning rules in an unsupervised manner. Our method opens the door to comparative analyses of the essential temporal structure of computation in neural circuits.",
+    "published_date": "2023-06-16T20:11:38Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "cs.NE",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2107.03220v2",
+    "title": "Joint Embedding of Structural and Functional Brain Networks with Graph Neural Networks for Mental Illness Diagnosis",
+    "authors": [
+      "Yanqiao Zhu",
+      "Hejie Cui",
+      "Lifang He",
+      "Lichao Sun",
+      "Carl Yang"
+    ],
+    "abstract": "Multimodal brain networks characterize complex connectivities among different brain regions from both structural and functional aspects and provide a new means for mental disease analysis. Recently, Graph Neural Networks (GNNs) have become a de facto model for analyzing graph-structured data. However, how to employ GNNs to extract effective representations from brain networks in multiple modalities remains rarely explored. Moreover, as brain networks provide no initial node features, how to design informative node attributes and leverage edge weights for GNNs to learn is left unsolved. To this end, we develop a novel multiview GNN for multimodal brain networks. In particular, we regard each modality as a view for brain networks and employ contrastive learning for multimodal fusion. Then, we propose a GNN model which takes advantage of the message passing scheme by propagating messages based on degree statistics and brain region connectivities. Extensive experiments on two real-world disease datasets (HIV and Bipolar) demonstrate the effectiveness of our proposed method over state-of-the-art baselines.",
+    "published_date": "2021-07-07T13:49:57Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "physics.med-ph",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2303.14986v1",
+    "title": "mSPD-NN: A Geometrically Aware Neural Framework for Biomarker Discovery from Functional Connectomics Manifolds",
+    "authors": [
+      "Niharika S. D'Souza",
+      "Archana Venkataraman"
+    ],
+    "abstract": "Connectomics has emerged as a powerful tool in neuroimaging and has spurred recent advancements in statistical and machine learning methods for connectivity data. Despite connectomes inhabiting a matrix manifold, most analytical frameworks ignore the underlying data geometry. This is largely because simple operations, such as mean estimation, do not have easily computable closed-form solutions. We propose a geometrically aware neural framework for connectomes, i.e., the mSPD-NN, designed to estimate the geodesic mean of a collections of symmetric positive definite (SPD) matrices. The mSPD-NN is comprised of bilinear fully connected layers with tied weights and utilizes a novel loss function to optimize the matrix-normal equation arising from Fréchet mean estimation. Via experiments on synthetic data, we demonstrate the efficacy of our mSPD-NN against common alternatives for SPD mean estimation, providing competitive performance in terms of scalability and robustness to noise. We illustrate the real-world flexibility of the mSPD-NN in multiple experiments on rs-fMRI data and demonstrate that it uncovers stable biomarkers associated with subtle network differences among patients with ADHD-ASD comorbidities and healthy controls.",
+    "published_date": "2023-03-27T08:30:11Z",
+    "categories": [
+      "q-bio.QM",
+      "cs.LG",
+      "cs.NE",
+      "eess.SP",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "2506.13835v1",
+    "title": "A Silent Speech Decoding System from EEG and EMG with Heterogenous Electrode Configurations",
+    "authors": [
+      "Masakazu Inoue",
+      "Motoshige Sato",
+      "Kenichi Tomeoka",
+      "Nathania Nah",
+      "Eri Hatakeyama",
+      "Kai Arulkumaran",
+      "Ilya Horiguchi",
+      "Shuntaro Sasai"
+    ],
+    "abstract": "Silent speech decoding, which performs unvocalized human speech recognition from electroencephalography/electromyography (EEG/EMG), increases accessibility for speech-impaired humans. However, data collection is difficult and performed using varying experimental setups, making it nontrivial to collect a large, homogeneous dataset. In this study we introduce neural networks that can handle EEG/EMG with heterogeneous electrode placements and show strong performance in silent speech decoding via multi-task training on large-scale EEG/EMG datasets. We achieve improved word classification accuracy in both healthy participants (95.3%), and a speech-impaired patient (54.5%), substantially outperforming models trained on single-subject data (70.1% and 13.2%). Moreover, our models also show gains in cross-language calibration performance. This increase in accuracy suggests the feasibility of developing practical silent speech decoding systems, particularly for speech-impaired patients.",
+    "published_date": "2025-06-16T07:57:35Z",
+    "categories": [
+      "q-bio.QM",
+      "cs.LG",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "2205.10912v1",
+    "title": "Limitations of a proposed correction for slow drifts in decision criterion",
+    "authors": [
+      "Diksha Gupta",
+      "Carlos D. Brody"
+    ],
+    "abstract": "Trial history biases in decision-making tasks are thought to reflect systematic updates of decision variables, therefore their precise nature informs conclusions about underlying heuristic strategies and learning processes. However, random drifts in decision variables can corrupt this inference by mimicking the signatures of systematic updates. Hence, identifying the trial-by-trial evolution of decision variables requires methods that can robustly account for such drifts. Recent studies (Lak'20, Mendonça'20) have made important advances in this direction, by proposing a convenient method to correct for the influence of slow drifts in decision criterion, a key decision variable. Here we apply this correction to a variety of updating scenarios, and evaluate its performance. We show that the correction fails for a wide range of commonly assumed systematic updating strategies, distorting one's inference away from the veridical strategies towards a narrow subset. To address these limitations, we propose a model-based approach for disambiguating systematic updates from random drifts, and demonstrate its success on real and synthetic datasets. We show that this approach accurately recovers the latent trajectory of drifts in decision criterion as well as the generative systematic updates from simulated data. Our results offer recommendations for methods to account for the interactions between history biases and slow drifts, and highlight the advantages of incorporating assumptions about the generative process directly into models of decision-making.",
+    "published_date": "2022-05-22T19:33:19Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "cs.NE",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2510.19826v1",
+    "title": "Neurotremor: A wearable Supportive Device for Supporting Upper Limb Muscle Function",
+    "authors": [
+      "Aueaphum Aueawattthanaphisut",
+      "Thanyanee Srichaisak",
+      "Arissa Ieochai"
+    ],
+    "abstract": "A sensor-fused wearable assistance prototype for upper-limb function (triceps brachii and extensor pollicis brevis) is presented. The device integrates surface electromyography (sEMG), an inertial measurement unit (IMU), and flex/force sensors on an M5StickC plus an ESP32-S3 compute hub. Signals are band-pass and notch filtered; features (RMS, MAV, zero-crossings, and 4-12 Hz tremor-band power) are computed in 250 ms windows and fed to an INT8 TensorFlow Lite Micro model. Control commands are bounded by a control-barrier-function safety envelope and delivered within game-based tasks with lightweight personalization. In a pilot technical feasibility evaluation with healthy volunteers (n = 12) performing three ADL-oriented tasks, tremor prominence decreased (Delta TI = -0.092, 95% CI [-0.102, -0.079]), range of motion increased (+12.65%, 95% CI [+8.43, +13.89]), repetitions rose (+2.99 min^-1, 95% CI [+2.61, +3.35]), and the EMG median-frequency slope became less negative (Delta = +0.100 Hz/min, 95% CI [+0.083, +0.127]). The sensing-to-assist loop ran at 100 Hz with 8.7 ms median on-device latency, 100% session completion, and 0 device-related adverse events. These results demonstrate technical feasibility of embedded, sensor-fused assistance for upper-limb function; formal patient studies under IRB oversight are planned.",
+    "published_date": "2025-10-02T00:07:09Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.ET",
+      "cs.LG",
+      "q-bio.TO"
+    ]
+  },
+  {
+    "arxiv_id": "2202.12715v1",
+    "title": "Early Disease Stage Characterization in Parkinson's Disease from Resting-state fMRI Data Using a Long Short-term Memory Network",
+    "authors": [
+      "Xueqi Guo",
+      "Sule Tinaz",
+      "Nicha C. Dvornek"
+    ],
+    "abstract": "Parkinson's disease (PD) is a common and complex neurodegenerative disorder with 5 stages in the Hoehn and Yahr scaling. Given the heterogeneity of PD, it is challenging to classify early stages 1 and 2 and detect brain function alterations. Functional magnetic resonance imaging (fMRI) is a promising tool in revealing functional connectivity (FC) differences and developing biomarkers in PD. Some machine learning approaches like support vector machine and logistic regression have been successfully applied in the early diagnosis of PD using fMRI data, which outperform classifiers based on manually selected morphological features. However, the early-stage characterization in FC changes has not been fully investigated. Given the complexity and non-linearity of fMRI data, we propose the use of a long short-term memory (LSTM) network to characterize the early stages of PD. The study included 84 subjects (56 in stage 2 and 28 in stage 1) from the Parkinson's Progression Markers Initiative (PPMI), the largest available public PD dataset. Under a repeated 10-fold stratified cross-validation, the LSTM model reached an accuracy of 71.63%, 13.52% higher than the best traditional machine learning method, indicating significantly better robustness and accuracy compared with other machine learning classifiers. We used the learned LSTM model weights to select the top brain regions that contributed to model prediction and performed FC analyses to characterize functional changes with disease stage and motor impairment to gain better insight into the brain mechanisms of PD.",
+    "published_date": "2022-02-11T18:34:11Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "eess.SP",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2506.01456v1",
+    "title": "GenDMR: A dynamic multimodal role-swapping network for identifying risk gene phenotypes",
+    "authors": [
+      "Lina Qin",
+      "Cheng Zhu",
+      "Chuqi Zhou",
+      "Yukun Huang",
+      "Jiayi Zhu",
+      "Ping Liang",
+      "Jinju Wang",
+      "Yixing Huang",
+      "Cheng Luo",
+      "Dezhong Yao",
+      "Ying Tan"
+    ],
+    "abstract": "Recent studies have shown that integrating multimodal data fusion techniques for imaging and genetic features is beneficial for the etiological analysis and predictive diagnosis of Alzheimer's disease (AD). However, there are several critical flaws in current deep learning methods. Firstly, there has been insufficient discussion and exploration regarding the selection and encoding of genetic information. Secondly, due to the significantly superior classification value of AD imaging features compared to genetic features, many studies in multimodal fusion emphasize the strengths of imaging features, actively mitigating the influence of weaker features, thereby diminishing the learning of the unique value of genetic features. To address this issue, this study proposes the dynamic multimodal role-swapping network (GenDMR). In GenDMR, we develop a novel approach to encode the spatial organization of single nucleotide polymorphisms (SNPs), enhancing the representation of their genomic context. Additionally, to adaptively quantify the disease risk of SNPs and brain region, we propose a multi-instance attention module to enhance model interpretability. Furthermore, we introduce a dominant modality selection module and a contrastive self-distillation module, combining them to achieve a dynamic teacher-student role exchange mechanism based on dominant and auxiliary modalities for bidirectional co-updating of different modal data. Finally, GenDMR achieves state-of-the-art performance on the ADNI public dataset and visualizes attention to different SNPs, focusing on confirming 12 potential high-risk genes related to AD, including the most classic APOE and recently highlighted significant risk genes. This demonstrates GenDMR's interpretable analytical capability in exploring AD genetic features, providing new insights and perspectives for the development of multimodal data fusion techniques.",
+    "published_date": "2025-06-02T09:12:53Z",
+    "categories": [
+      "q-bio.GN",
+      "cs.AI",
+      "cs.LG",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "2406.17086v1",
+    "title": "BrainMAE: A Region-aware Self-supervised Learning Framework for Brain Signals",
+    "authors": [
+      "Yifan Yang",
+      "Yutong Mao",
+      "Xufu Liu",
+      "Xiao Liu"
+    ],
+    "abstract": "The human brain is a complex, dynamic network, which is commonly studied using functional magnetic resonance imaging (fMRI) and modeled as network of Regions of interest (ROIs) for understanding various brain functions. Recent studies utilize deep learning approaches to learn the brain network representation based on functional connectivity (FC) profile, broadly falling into two main categories. The Fixed-FC approaches, utilizing the FC profile which represents the linear temporal relation within the brain network, are limited by failing to capture informative brain temporal dynamics. On the other hand, the Dynamic-FC approaches, modeling the evolving FC profile over time, often exhibit less satisfactory performance due to challenges in handling the inherent noisy nature of fMRI data.\n  To address these challenges, we propose Brain Masked Auto-Encoder (BrainMAE) for learning representations directly from fMRI time-series data. Our approach incorporates two essential components: a region-aware graph attention mechanism designed to capture the relationships between different brain ROIs, and a novel self-supervised masked autoencoding framework for effective model pre-training. These components enable the model to capture rich temporal dynamics of brain activity while maintaining resilience to inherent noise in fMRI data. Our experiments demonstrate that BrainMAE consistently outperforms established baseline methods by significant margins in four distinct downstream tasks. Finally, leveraging the model's inherent interpretability, our analysis of model-generated representations reveals findings that resonate with ongoing research in the field of neuroscience.",
+    "published_date": "2024-06-24T19:16:24Z",
+    "categories": [
+      "q-bio.QM",
+      "cs.LG",
+      "q-bio.NC"
+    ]
+  },
+  {
+    "arxiv_id": "2310.13480v1",
+    "title": "Personalized identification, prediction, and stimulation of neural oscillations via data-driven models of epileptic network dynamics",
+    "authors": [
+      "Tena Dubcek",
+      "Debora Ledergerber",
+      "Jana Thomann",
+      "Giovanna Aiello",
+      "Marc Serra-Garcia",
+      "Lukas Imbach",
+      "Rafael Polania"
+    ],
+    "abstract": "Neural oscillations are considered to be brain-specific signatures of information processing and communication in the brain. They also reflect pathological brain activity in neurological disorders, thus offering a basis for diagnoses and forecasting. Epilepsy is one of the most common neurological disorders, characterized by abnormal synchronization and desynchronization of the oscillations in the brain. About one third of epilepsy cases are pharmacoresistant, and as such emphasize the need for novel therapy approaches, where brain stimulation appears to be a promising therapeutic option. The development of brain stimulation paradigms, however, is often based on generalized assumptions about brain dynamics, although it is known that significant differences occur between patients and brain states. We developed a framework to extract individualized predictive models of epileptic network dynamics directly from EEG data. The models are based on the dominant coherent oscillations and their dynamical coupling, thus combining an established interpretation of dynamics through neural oscillations, with accurate patient-specific features. We show that it is possible to build a direct correspondence between the models of brain-network dynamics under periodic driving, and the mechanism of neural entrainment via periodic stimulation. When our framework is applied to EEG recordings of patients in status epilepticus (a brain state of perpetual seizure activity), it yields a model-driven predictive analysis of the therapeutic performance of periodic brain stimulation. This suggests that periodic brain stimulation can drive pathological states of epileptic network dynamics towards a healthy functional brain state.",
+    "published_date": "2023-10-20T13:21:31Z",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "nlin.AO",
+      "physics.med-ph",
+      "q-bio.QM"
+    ]
+  },
+  {
+    "arxiv_id": "2410.00944v1",
+    "title": "GAMMA-PD: Graph-based Analysis of Multi-Modal Motor Impairment Assessments in Parkinson's Disease",
+    "authors": [
+      "Favour Nerrise",
+      "Alice Louise Heiman",
+      "Ehsan Adeli"
+    ],
+    "abstract": "The rapid advancement of medical technology has led to an exponential increase in multi-modal medical data, including imaging, genomics, and electronic health records (EHRs). Graph neural networks (GNNs) have been widely used to represent this data due to their prominent performance in capturing pairwise relationships. However, the heterogeneity and complexity of multi-modal medical data still pose significant challenges for standard GNNs, which struggle with learning higher-order, non-pairwise relationships. This paper proposes GAMMA-PD (Graph-based Analysis of Multi-modal Motor Impairment Assessments in Parkinson's Disease), a novel heterogeneous hypergraph fusion framework for multi-modal clinical data analysis. GAMMA-PD integrates imaging and non-imaging data into a \"hypernetwork\" (patient population graph) by preserving higher-order information and similarity between patient profiles and symptom subtypes. We also design a feature-based attention-weighted mechanism to interpret feature-level contributions towards downstream decision tasks. We evaluate our approach with clinical data from the Parkinson's Progression Markers Initiative (PPMI) and a private dataset. We demonstrate gains in predicting motor impairment symptoms in Parkinson's disease. Our end-to-end framework also learns associations between subsets of patient characteristics to generate clinically relevant explanations for disease and symptom profiles. The source code is available at https://github.com/favour-nerrise/GAMMA-PD.",
+    "published_date": "2024-10-01T15:51:33Z",
+    "categories": [
+      "q-bio.QM",
+      "cs.AI",
+      "cs.LG",
+      "eess.IV",
+      "q-bio.NC"
+    ]
+  }
+]

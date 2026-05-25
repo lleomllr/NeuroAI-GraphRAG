@@ -58,7 +58,7 @@ ipython_config.py
 
 .env
 
-data
+data/neo4j/
 qdrant_storage/
 !tests/data/
 

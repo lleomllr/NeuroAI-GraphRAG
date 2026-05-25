@@ -115,7 +115,7 @@ class GraphRetriever:
 if __name__ == "__main__":
     retriever = GraphRetriever()
     try:
-        context = retriever.get_hybrid_context("large language models neurosymbolic", top_k=2)
+        context = retriever.get_hybrid_context("What is SciCore-Mol?", top_k=3)
         print(context)
     except Exception as e:
         print(f"An error occurred during retrieval: {e}")

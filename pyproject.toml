@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuroai-graphrag"
+version = "0.1.0"
+description = "GraphRAG Pipeline with Neo4j and Qdrant"
+readme = "README.md"
+authors = [
+    {name = "Leo Meillier"}
+]
+requires-python = ">=3.9"
+dependencies = [
+    "arxiv",
+    "langchain-community",
+    "langchain-ollama",
+    "neo4j",
+    "pydantic",
+    "pydantic-settings",
+    "qdrant-client",
+    "ragas",
+    "sentence-transformers",
+    "tf-keras",
+    "tqdm"
+]
